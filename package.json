@@ -39,7 +39,8 @@
     "test": "./scripts/test.js",
     "test-latest-cra": "npm --prefix lib/cli run test-latest-cra",
     "repo-dirty-check": "node ./scripts/repo-dirty-check",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "chromatic": "chromatic test --storybook-addon"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -87,6 +88,7 @@
     "puppeteer": "^0.13.0",
     "raf": "^3.4.0",
     "react": "^16.2.0",
+    "react-chromatic": "^0.7.3",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
     "remark-cli": "^4.0.0",

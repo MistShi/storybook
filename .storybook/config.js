@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies, import/no-unresolved, import/extensions */
 import React from 'react';
 import { configure } from '@storybook/react';
+import 'react-chromatic/storybook-addon';
 
 function loadStories() {
   let req;
